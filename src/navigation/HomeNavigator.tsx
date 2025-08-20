@@ -14,7 +14,7 @@ const HomeNavigator = () => {
     const Stack = createStackNavigator<HomeStackParamList>();
 
     return (
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }} initialRouteName={HOME}>
             <Stack.Screen name={HOME} component={HomeScreen} />
             <Stack.Screen name={MOVIE_DETAILS} component={MovieDetailsScreen} />
         </Stack.Navigator>

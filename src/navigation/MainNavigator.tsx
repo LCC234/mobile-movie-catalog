@@ -12,3 +12,5 @@ const MainNavContainer = () => {
         </NavigationContainer>
     );
 }
+
+export default MainNavContainer;
